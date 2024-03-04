@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "albanero",
-    "dateExported": "2024-03-04T11:16:24.327Z",
+    "dateExported": "2024-03-04T11:30:04.806Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -52,12 +52,12 @@
             "method": "POST",
             "sortNum": 30000,
             "created": "2024-03-04T11:16:07.477Z",
-            "modified": "2024-03-04T11:16:07.477Z",
+            "modified": "2024-03-04T11:25:38.405Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"train_no\": \"12651\",\n  \"from_station\": \"NGR\",\n  \"to_station\": \"HYD\",\n  \"seat_count\": 50\n}",
+                "raw": "{\n  \"train_no\": \"12653\",\n  \"from_station\": \"HYD\",\n  \"to_station\": \"BLR\",\n  \"seat_count\":70\n}",
                 "form": []
             },
             "tests": []
@@ -79,6 +79,20 @@
                 "raw": "{\n \"pnr\":\"45277995605360\",\n \"names\":[\"Mohan2\"]\n}",
                 "form": []
             },
+            "tests": []
+        },
+        {
+            "_id": "bab58ea9-8507-473d-8471-37c61cce2341",
+            "colId": "0d4f6769-d08c-40e3-a039-e8fa5a7b5def",
+            "containerId": "",
+            "name": "getTrainList",
+            "url": "http://127.0.0.1:5000/train",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-04T11:26:34.791Z",
+            "modified": "2024-03-04T11:27:00.333Z",
+            "headers": [],
+            "params": [],
             "tests": []
         }
     ]
