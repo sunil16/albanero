@@ -1,0 +1,85 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "albanero",
+    "dateExported": "2024-03-04T11:16:24.327Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "16d9e15f-da12-45c8-b49c-f159ae295453",
+            "colId": "0d4f6769-d08c-40e3-a039-e8fa5a7b5def",
+            "containerId": "",
+            "name": "cancelTicket",
+            "url": "http://127.0.0.1:5000/cancel",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-03-04T11:15:51.543Z",
+            "modified": "2024-03-04T11:15:51.543Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"pnr\":\"45277995605360\",\n \"names\":[\"Mohan2\"]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f9c833ea-8d51-4762-9cfe-e25f4e9f137f",
+            "colId": "0d4f6769-d08c-40e3-a039-e8fa5a7b5def",
+            "containerId": "",
+            "name": "bookTicket",
+            "url": "http://127.0.0.1:5000/book",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-04T11:15:59.826Z",
+            "modified": "2024-03-04T11:15:59.826Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"train_no\": \"12650\",\n  \"from_station\": \"BPL\",\n  \"to_station\": \"DEL\",\n  \"passenger_details\":{\"mobile\":1234567890,\"email\":\"email@gmail.com\",\"names\":[\"Ram1\",\"Mohan2\",\"Sita3\"]}\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "43435c68-c254-43a8-87e7-06c8e6c27f45",
+            "colId": "0d4f6769-d08c-40e3-a039-e8fa5a7b5def",
+            "containerId": "",
+            "name": "addTrain",
+            "url": "http://127.0.0.1:5000/train",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-04T11:16:07.477Z",
+            "modified": "2024-03-04T11:16:07.477Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"train_no\": \"12651\",\n  \"from_station\": \"NGR\",\n  \"to_station\": \"HYD\",\n  \"seat_count\": 50\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "10e8fc08-595c-4e46-813d-fb8e794efb3c",
+            "colId": "0d4f6769-d08c-40e3-a039-e8fa5a7b5def",
+            "containerId": "",
+            "name": "cancelTicket",
+            "url": "http://127.0.0.1:5000/cancel",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-04T11:16:15.543Z",
+            "modified": "2024-03-04T11:16:15.543Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"pnr\":\"45277995605360\",\n \"names\":[\"Mohan2\"]\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
