@@ -5,12 +5,6 @@ from datetime import date, datetime, timedelta
 
 db = SQLAlchemy(app)
 
-# class Seat(db.Model):
-#     __tablename__ = 'seat'
-#     id = db.Column(db.Integer, unique=True)
-#     seat_no = db.Column(db.String(500), primary_key=True)
-#     status = 
-
 class Train(db.Model):
     '''
     Train class model 
